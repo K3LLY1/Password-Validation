@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password-validation</title>
+    <script src="https://kit.fontawesome.com/d59999ea38.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav>
+        <div class="demo">
+            <p>
+            DEMO
+           </p>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="pass-field">
+            <input type="password" placeholder="Create password" id="password" value="">
+           <i class="fa-solid fa-eye"></i>
+            <!-- <i class="fa-solid fa-eye"></i> -->
+           
+
+
+        </div>
+
+        <div class="pass-field-confirm">
+            <input type="password" placeholder="Re-enter password" id="confirm-password" value="">
+            <i class="fa-solid fa-eye "></i>
+          
+
+        </div>
+
+        <p class="wrong-input">password does't match !</p>
+
+        <div class="content">
+            <p>Password must contain</p>
+            <ul class="requirement-list">
+                <li class="list">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 8 characters length </span>
+                </li>
+
+                <li class="list">
+                    <i class="fa-solid fa-circle"></i>
+                        <span>At least a number </span>
+                </li>    
+
+                <li class="list">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least a lowercase letter</span>
+
+                </li>
+
+                <li class="list">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least a special character</span>
+
+                </li>
+
+                <li class="list">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least an uppercase letter</span>
+
+                </li>
+
+
+
+            </ul>
+
+        </div>  
+
+        <button id="btn">
+          Create password
+        </button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

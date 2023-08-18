@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+}
+
+.wrapper{
+    background-color: white;
+    width:450px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding:28px ;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.wrapper .pass-field{
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+
+.pass-field input{
+    width: 100%;
+    height: 60%;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray ;
+    margin-bottom: 0;
+
+}
+.pass-field-confirm{
+    display: flex;
+} 
+
+
+.pass-field-confirm input{
+    width: 100%;
+    height: 60%;
+    padding: 7px 15px;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray ;
+    margin-top: -10px;
+    
+}
+
+.pass-field-confirm i{
+  position: absolute;
+  margin-left: 355px;
+  margin-top: 0px;
+  font-size: 1.2rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.pass-field i{
+    position: absolute;
+    right: 18px;
+    top: 30%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.wrapper .content{
+    margin: 20px 0 10px;
+
+}
+
+.content p{
+    font-size: 1.1rem;
+
+}
+
+.content .requirement-list{
+    margin-top: 20px;
+
+}
+
+.requirement-list li{
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.requirement-list li i{
+    font-size: 0.6rem;
+    color: gray;
+    width: 20px;
+
+}
+.requirement-list li i.fa-check{
+    color: rgb(16, 220, 16);
+    font-size: 1.2rem;
+}
+.requirement-list li span{
+    margin-left: 12px;
+    font-size: 1.1rem;
+}
+
+
+.wrapper button{
+    padding:  10px 60px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    margin-left: 65px;
+    cursor: pointer;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.wrapper button:hover{
+    background-color: #8b95a4;
+    color: black;
+}
+
+.wrong-input{
+    font-size: 12px;
+    color: red;
+    display: none;
+    margin-left: 5px;
+}
+
+.demo{
+    color: white;
+    margin-top: -120px;
+    margin-left: -750px;
+    border: 5px solid white;
+    height: 30px;
+    width: 65px;
+    padding: 2px 20px 2px 5px;
+
+    text-align: center;
+}
+
+
